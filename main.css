@@ -1,0 +1,142 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  background-color: #262424;
+  color: #c8bfb9;
+  overflow-x:hidden;
+}
+
+a:link {
+color: #c8bfb9;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #FF3300;
+}
+
+header {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('plaid.png');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-bottom:0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 68px;  
+  font-family: 'Architects Daughter', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  font-family: 'Architects Daughter', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  font-family: 'Architects Daughter', sans-serif;
+  color: #fff;
+}
+
+.jumbotron .container {
+	background: rgba(0, 0, 0, 0);
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.container {
+	background: rgba(0, 0, 0, 0.6);
+
+	padding: 20px 20px 20px 20px;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Styling for social icons */
+i.fa {
+	padding: 0 8px;
+	color: #FFF;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+i.fa:hover {
+	color: #00C5DB;
+}
