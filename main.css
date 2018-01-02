@@ -46,7 +46,7 @@ header p {
   display: flex;
   align-items: center;
   /*background-image: url('plaid.png');*/
-  background-color: blue;
+  background-color: #5BC8AC;
   background-size: cover;
   color: #ffffff;
   height: 300px;
@@ -150,4 +150,8 @@ i.fa:hover {
 .card-img-top {
     height: 20em;
     width: 20em;
+}
+
+#resume {
+    text-decoration: underline;
 }
