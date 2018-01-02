@@ -3,7 +3,7 @@
 <head>
   <title>Christina Mak</title>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
   <script src="https://use.fontawesome.com/e019ff47dd.js"></script>
@@ -15,53 +15,53 @@
     <nav class="col-sm-12 text-right">
 	  <b><a href="index.html">Home</a></b>
       <p>Projects</p>
-      <p>Contact</p> 
+      <p>Contact</p>
     </nav>
   </div>
   </header>
 <section class="jumbotron">
   <div class="container">
-    <div class="row text-center">
-      <h1>Christina Mak</h2>
-      <h2>Subtitle</h2>
-    </div>
+      <h1>Christina Mak</h1>
   </div>
   </section>
 <section class="container">
 
-  <div class="row">
-    <figure class="col-sm-6">
-      <p>iCloset</p>
-	  <a href="projects_icloset.html"> <img src="images/icloset_promo.png" style="border:none;max-width:100%;" alt="iCloset">
-      </a>
-      </figure>
-    <figure class="col-sm-6">
-      <p>category 2</p>
-      <img src="images/icloset_promo.png"/>
-      </figure>
-  </div>
-  <div class="row">
-    <figure class="col-sm-6">
-      <p>category 3</p>
-      <img src="images/icloset_promo.png"/>
-    </figure>
-    <figure class="col-sm-6">
-      <p>category 4</p>
-      <img src="images/icloset_promo.png"/>
-      </figure>
-    </div>
+<h2>Projects</h2>
+<script id="entry-template" type="text/x-handlebars-template">
+      <div class="project" id="project{{index}}">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="{{projectImg}}" alt="project image">
+            <div class="card-block">
+              <h4 class="card-title">{{title}}</h4>
+              <p class="card-text">{{description}}</p>
+              <a href="{{learnMore}}" class="btn btn-primary">Learn More</a>
+              <a href="{{sourceCode}}" class="btn btn-primary">Source Code</a>
+            </div>
+          </div>
+      </div>
+</script>
+
+<div class="row justify-content-center" id="templatedProjects">
+</div>
 
   </section>
   <footer class="container">
     <div class="row">
-      <p class="col-sm-4">&copy; 2016 Christina Mak</p>
+      <p class="col-sm-4">&copy; 2018 Christina Mak</p>
       <ul class="col-sm-8">
         <li class="col-sm-1">
 		<a href="https://github.com/ChristinaMak"><i class="fa fa-github fa-4x"></i></a>
         </li>
-     
+
       </ul>
     </div>
   </footer>
+
+  <script src="js/handlebars-v4.0.11.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script src="js/projects.js"></script>
+
 </body>
 </html>

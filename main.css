@@ -1,7 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
-  background-color: #262424;
+  /*background-color: #262424;*/
   color: #c8bfb9;
   overflow-x:hidden;
 }
@@ -45,17 +45,18 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('plaid.png');
+  /*background-image: url('plaid.png');*/
+  background-color: blue;
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 300px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   margin-bottom:0;
 }
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 68px;  
+  font-size: 68px;
   font-family: 'Architects Daughter', sans-serif;
   font-weight: bold;
 }
@@ -139,4 +140,8 @@ i.fa {
 }
 i.fa:hover {
 	color: #00C5DB;
+}
+
+.card {
+    margin: 10px;
 }
