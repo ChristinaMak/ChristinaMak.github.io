@@ -103,17 +103,27 @@ section .row img {
     color: #F18D9E;
     text-shadow: none;
     background-color: #ffffff;
+    outline: none !important;
 }
 
+.btn.btn-primary:active:focus,
 .btn.btn-primary:hover {
     color: #ffffff;
     background-color: #F18D9E;
+    outline: none !important;
 }
 
+
+
 .btn-secondary {
-    background-color: #E8DFE0;
-    color: #ffffff;
-    margin: 0 0 30px;
+    background-color: #F18D9E;
+    color: #ffffff !important;
+}
+
+.btn-secondary:active:focus,
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #F18D9E !important;
 }
 
 footer {
@@ -153,10 +163,19 @@ i.fa:hover {
 
 .card-title {
     color: #5BC8AC;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+.card-subtitle {
+    padding-left: 10px;
+    padding-left: 10px;
 }
 
 .card-text {
     color: #2A3132;
+    padding-left: 10px;
+    padding-left: 10px;
 }
 
 .project {
@@ -173,26 +192,17 @@ i.fa:hover {
     height: 20em;
     width: 20em;
 }
-/*
-.card-deck {
-    display: flex;
-    width: 100%;
-}
 
-
-*/
 .card-deck .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-
-
-/*
-.card-deck {
-    flex: 1 1 auto;
-}*/
+.card-footer {
+    background-color: white;
+    border: none;
+}
 
 #nav {
     margin-right: 50px;
