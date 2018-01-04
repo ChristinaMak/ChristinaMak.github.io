@@ -12,13 +12,12 @@
 <body>
 <header>
   <div class="row">
-    <nav class="col-sm-12 text-right">
-	  <b><a href="index.html">Home</a></b>
-      <p>Projects</p>
-      <p>Contact</p>
+    <nav class="col-sm-12">
+	  <a href="index.html" id="nav">Home</a>
     </nav>
   </div>
-  </header>
+</header>
+
 <section class="jumbotron">
   <div class="container">
       <h1>Christina Mak</h1>
@@ -26,23 +25,36 @@
   </section>
 <section class="container">
 
-    <p>I am a student at University of California San Diego expected to graduate in June 2018. I am majoring in computer science and minoring in design.
-    For a summary of my qualifications, see my <a href="Mak_Christina_Resume.pdf" id="resume">resume</a>.</p>
+    <div class="col-12 text-center">
+        <p>I am a student at University of California San Diego expected to graduate in June 2018. I am majoring in computer science and minoring in design.</p>
+        <a href="Mak_Christina_Resume.pdf" class="btn btn-secondary">View Resume</a>
+    </div>
+
+<h2>Work Experience</h2>
+<div class="card">
+  <div class="card-block" id="work">
+    <h4 class="card-title">Software Engineering Intern at Visa</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Foster City</h6>
+    <h6 class="card-subtitle mb-2 text-muted">June 2017-September 2017</h6>
+    <p class="card-text">Created a web application to allow search, addition, and deletion of settlement currency holidays for funds transfers using ASP.NET and WCF.</p>
+  </div>
+</div>
 
 <h2>Projects</h2>
 <script id="entry-template" type="text/x-handlebars-template">
       <div class="project" id="project{{index}}">
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="{{projectImg}}" alt="project image">
-            <div class="card-block" id="cards{{index}}">
+          <div class="card">
+            <div class="card-block">
+              <img class="card-img-top" src="{{projectImg}}" alt="project image">
               <h4 class="card-title">{{title}}</h4>
               <p class="card-text">{{description}}</p>
             </div>
+            <div class="card-footer" id="cards{{index}}"></div>
           </div>
       </div>
 </script>
 
-<div class="row justify-content-center" id="templatedProjects">
+<div class="card-deck row justify-content-center" id="templatedProjects">
 </div>
 
   </section>
@@ -50,10 +62,10 @@
     <div class="row">
       <p class="col-sm-4">&copy; 2018 Christina Mak</p>
       <ul class="col-sm-8">
-        <li class="col-sm-1">
+        <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
 		<a href="https://github.com/ChristinaMak"><i class="fa fa-github fa-4x"></i></a>
         </li>
-        <li class="col-sm-1">
+        <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
 		<a href="https://www.linkedin.com/in/christina-y-mak"><i class="fa fa-linkedin fa-4x"></i></a>
         </li>
       </ul>
