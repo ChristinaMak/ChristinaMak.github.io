@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Christina Mak</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-  <script src="https://use.fontawesome.com/e019ff47dd.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Christina Mak</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e019ff47dd.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<header>
-</header>
+    <header>
+    </header>
 
-<section class="jumbotron">
-  <div class="container">
-      <h1>Christina Mak</h1>
-  </div>
-  </section>
-<section class="container">
+    <section class="jumbotron">
+        <div class="container">
+            <h1>Christina Mak</h1>
+        </div>
+    </section>
+    <section class="container">
 
-    <div class="col-12 text-center">
-        <p>I am a student at University of California San Diego expected to graduate in June 2018. I am majoring in computer science and minoring in design.</p>
-        <a href="Mak_Christina_Resume.pdf" class="btn btn-secondary">View Resume</a>
-    </div>
+        <div class="col-12 text-center">
+            <p>I am a student at University of California San Diego expected to graduate in June 2018. I am majoring in computer science and minoring in design.</p>
+            <a href="Mak_Christina_Resume.pdf" class="btn btn-secondary">View Resume</a>
+        </div>
 
-<h2>Work Experience</h2>
-<div class="card">
-  <div class="card-block" id="work">
-    <h4 class="card-title">Software Engineering Intern at Visa</h4>
-    <h6 class="card-subtitle mb-2 text-muted">Foster City</h6>
-    <h6 class="card-subtitle mb-2 text-muted">June 2017-September 2017</h6>
-    <p class="card-text">Created a web application to allow search, addition, and deletion of settlement currency holidays for funds transfers using ASP.NET and WCF.</p>
-  </div>
-</div>
-<br>
-<h2>Projects</h2>
-<script id="entry-template" type="text/x-handlebars-template">
-      <div class="project" id="project{{index}}">
-          <div class="card">
-            <div class="card-block">
-              <img class="card-img-top" src="{{projectImg}}" alt="project image">
-              <h4 class="card-title">{{title}}</h4>
-              <h6 class="card-subtitle mb-2 text-muted">{{subtitle}}</h6>
-              <p class="card-text">{{description}}</p>
+        <h2>Work Experience</h2>
+        <div class="card">
+            <div class="card-block" id="work">
+                <h4 class="card-title">Software Engineering Intern at Visa</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Foster City</h6>
+                <h6 class="card-subtitle mb-2 text-muted">June 2017-September 2017</h6>
+                <ul class="card-list">
+                    <li>Created ASP.NET web application to keep track of settlement currency holidays to calculate the value date of funds transfers</li>
+                    <li>Redesigned user interface with Bootstrap, HTML, CSS</li>
+                    <li>Built RESTful web services with Windows Communication Foundation</li>
+                    <li>Wrote SQL queries to retrieve, create, and delete holiday data</li>
+                    <li>Automated holiday data retrieval using a vendor subscription file</li>
+                </ul>
             </div>
-            <div class="card-footer" id="cards{{index}}"></div>
-          </div>
-      </div>
-</script>
+        </div>
+        <br>
+        <h2>Projects</h2>
+        <script id="entry-template" type="text/x-handlebars-template">
+            <div class="project" id="project{{index}}">
+                <div class="card">
+                    <div class="card-block">
+                        <img class="card-img-top" src="{{projectImg}}" alt="project image">
+                        <h4 class="card-title">{{title}}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">{{subtitle}}</h6>
+                        <p class="card-text">{{description}}</p>
+                    </div>
+                    <div class="card-footer" id="cards{{index}}"></div>
+                </div>
+            </div>
+        </script>
 
-<div class="card-deck row justify-content-center" id="templatedProjects">
-</div>
+        <div class="card-deck row justify-content-center" id="templatedProjects">
+        </div>
 
-  </section>
-  <footer class="container">
-    <div class="row">
-      <p class="col-sm-4">&copy; 2018 Christina Mak</p>
-      <ul class="col-sm-8">
-        <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
-		<a href="https://github.com/ChristinaMak"><i class="fa fa-github fa-4x"></i></a>
-        </li>
-        <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
-		<a href="https://www.linkedin.com/in/christina-y-mak"><i class="fa fa-linkedin fa-4x"></i></a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+    </section>
+    <footer class="container">
+        <div class="row">
+            <p class="col-sm-4">&copy; 2018 Christina Mak</p>
+            <ul class="col-sm-8">
+                <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
+                    <a href="https://github.com/ChristinaMak"><i class="fa fa-github fa-4x"></i></a>
+                </li>
+                <li class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
+                    <a href="https://www.linkedin.com/in/christina-y-mak"><i class="fa fa-linkedin fa-4x"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-  <script src="js/handlebars-v4.0.11.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  <script src="js/projects.js"></script>
+    <script src="js/handlebars-v4.0.11.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="js/projects.js"></script>
 
 </body>
 </html>
