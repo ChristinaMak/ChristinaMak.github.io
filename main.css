@@ -179,6 +179,7 @@ i.fa:hover {
 .card-img-top { /* Sizing for card images */
     height: 20em;
     width: 20em;
+    object-fit: cover;
 }
 
 .card-deck .card {
