@@ -58,7 +58,7 @@ We came up with a list of user needs and wrote a point of view statement:
 We decided on the name "Bon Voyage" because it is a simple name with a positive connotation of travel. We wanted our brand to have an association with the fun of travelling. To make the brand more unique, we thought we would also include our concept of being a digital travel agent into the app's branding.
 I came up with three possible logos based on these ideas.</p>
 <figure class="figure">
-    <img src="/images/bon_voyage/bv_logo_ideas.png" class = "pic"></img>
+    <img src="/images/bon_voyage/bv_logo_ideas.png" class = "pic">
     <figcaption class="figure-caption">Bon Voyage logo ideas</figcaption>
 </figure>
 <p>
@@ -77,14 +77,14 @@ I came up with three possible logos based on these ideas.</p>
 <div class="row col-md-12">
     <div class="col-md-6">
         <figure class="figure">
-            <img src="/images/bon_voyage/bv_cs_1.png" class = "pic"></img>
+            <img src="/images/bon_voyage/bv_cs_1.png" class = "pic">
             <figcaption class="figure-caption">Mockup with first logo</figcaption>
         </figure>
     </div>
 
     <div class="col-md-6">
         <figure class="figure">
-            <img src="/images/bon_voyage/bv_cs_2.png" class = "pic"></img>
+            <img src="/images/bon_voyage/bv_cs_2.png" class = "pic">
             <figcaption class="figure-caption">Mockup with second logo</figcaption>
         </figure>
     </div>
