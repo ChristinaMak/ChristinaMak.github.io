@@ -85,6 +85,7 @@ section .row img {
 
 .container {
     background: rgba(0, 0, 0, 0.2);
+    padding: 20px 20px 20px 20px;
 }
 
 /* Button used in project cards */
