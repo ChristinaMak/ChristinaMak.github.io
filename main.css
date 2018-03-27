@@ -1,12 +1,13 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    color: #c8bfb9;
+    color: #F1F1F2;
     overflow-x:hidden;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 h2 {
-    color: white;
+    color: #5BC8AC;
 }
 
 a:link {
@@ -21,7 +22,7 @@ a:hover {
 
 header {
     min-height: 50px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,14 +84,14 @@ section .row img {
 }
 
 .container {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px 20px 20px 20px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
+/* Button used in project cards */
 .btn.btn-primary {
-    border-radius: 2px;
+    border-radius: 0px;
     border: 0px;
-    color: #F18D9E;
+    color: #5BC8AC;
     text-shadow: none;
     background-color: #ffffff;
     outline: none !important;
@@ -99,19 +100,21 @@ section .row img {
 .btn.btn-primary:active:focus,
 .btn.btn-primary:hover {
     color: #ffffff;
-    background-color: #F18D9E;
+    background-color: #5BC8AC;
     outline: none !important;
 }
 
 .btn-secondary {
     background-color: #F18D9E;
     color: #ffffff !important;
+    outline: none !important;
 }
 
 .btn-secondary:active:focus,
 .btn-secondary:hover {
     background-color: #ffffff !important;
     color: #F18D9E !important;
+    outline: none !important;
 }
 
 footer {
@@ -142,7 +145,7 @@ i.fa {
     -webkit-transition: all 0.3s ease 0s;
 }
 i.fa:hover {
-    color: #00C5DB;
+    color: #5BC8AC;
 }
 
 .card {
@@ -150,7 +153,7 @@ i.fa:hover {
 }
 
 .card-title {
-    color: #5BC8AC;
+    color: #F18D9E;
     padding-left: 10px;
     padding-left: 10px;
 }
