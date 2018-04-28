@@ -178,7 +178,7 @@ i.fa:hover {
 .project .card {
     margin: 10px;
     /*width: 20rem;*/
-    height: 100%; /* Make all cards the same height */
+    height: 100%;
 }
 
 .card-img-top { /* Sizing for card images */
