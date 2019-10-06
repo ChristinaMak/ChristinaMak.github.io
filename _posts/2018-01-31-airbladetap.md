@@ -1,8 +1,10 @@
 ---
 title: Examining the Dyson Airblade Tap
 subtitle: January 31, 2018
+lead: The everyday design of a hand dryer
 layout: default
 date: 2018-01-31
+image: /images/blog/dysonairbladetap.jpg
 ---
 <img class="blogpic" src="/images/blog/dysonairbladetap.jpg">
 
