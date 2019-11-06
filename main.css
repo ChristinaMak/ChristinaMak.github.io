@@ -19,6 +19,10 @@ a:hover {
     color: #ffffff;
 }
 
+.text-link {
+    color: #5BC8AC !important;
+}
+
 header {
     min-height: 50px;
     background: rgba(0, 0, 0, 0.2);
