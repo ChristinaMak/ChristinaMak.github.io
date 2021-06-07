@@ -1,5 +1,5 @@
 ---
-title: Bon Voyage
+title: Bon Voyage†
 subtitle: Mobile Web Application
 lead: Human-centered design used to build a web application for people 40 and over
 layout: default
