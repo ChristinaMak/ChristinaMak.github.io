@@ -7,6 +7,7 @@ body {
 
 h2 {
     color: #5BC8AC;
+    margin-top: 1rem;
 }
 
 a:link {
@@ -154,8 +155,8 @@ i.fa:hover {
 
 .card {
     padding: 5px; /* padding border inside cards */
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card-title {
@@ -181,13 +182,12 @@ i.fa:hover {
 
 .project .card {
     margin: 10px;
-    /*width: 20rem;*/
     height: 100%;
 }
 
 .card-img-top { /* Sizing for card images */
-    height: 20em;
-    width: 20em;
+    height: 20rem;
+    width: 20rem;
     object-fit: cover;
 }
 
@@ -227,7 +227,7 @@ i.fa:hover {
 }
 
 .slide {
-    max-height: 21em;
+    max-height: 21rem;
 }
 
 .slick-prev:before,
